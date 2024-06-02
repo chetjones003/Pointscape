@@ -1,10 +1,8 @@
 #pragma once
 
-#include "Core.h"
-
 namespace Pointscape {
 
-	class POINTSCAPE_API Application
+	class Application
 	{
 	public:
 		Application();

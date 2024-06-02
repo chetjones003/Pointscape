@@ -3,8 +3,8 @@
 // For use by Pointscape Client only
 
 #include <stdio.h>
-#include "Pointscape/Application.h"
+#include "Core/Application.h"
 
 // --- Entry Point ------------------------------------------
-#include "Pointscape/EntryPoint.h"
+#include "Core/EntryPoint.h"
 // ----------------------------------------------------------
