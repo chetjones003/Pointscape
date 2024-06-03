@@ -9,4 +9,4 @@ namespace Pointscape {
 		while (true);
 	}
 
-}
+} // namespace Pointscape

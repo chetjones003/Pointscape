@@ -1,8 +1,8 @@
-#pragma once
+#ifndef POINTSCAPE_H_
+#define POINTSCAPE_H_
 
-// For use by Pointscape Client only
-
-#include <stdio.h>
 #include "Core/Application.h"
 #include "Core/Log.h"
+#include <stdio.h>
 
+#endif

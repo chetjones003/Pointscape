@@ -5,7 +5,7 @@ int main() {
 	POINTSCAPE_CORE_INFO("Engine initialized successfully.");
 	POINTSCAPE_INFO("Client is rendering.");
 
-	Pointscape::Application* app = new Pointscape::Application();
+	Pointscape::Application *app = new Pointscape::Application();
 	app->Run();
 	delete app;
 }
