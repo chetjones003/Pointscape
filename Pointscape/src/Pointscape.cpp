@@ -1,8 +1,11 @@
 #include "Pointscape.h"
 
 int main() {
-	printf("Pointscape Engine Started");
-	auto app = Pointscape::CreateApplication();
+	Pointscape::Log::Init();
+	POINTSCAPE_CORE_INFO("Engine initialized successfully.");
+	POINTSCAPE_INFO("Client is rendering.");
+
+	Pointscape::Application* app = new Pointscape::Application();
 	app->Run();
 	delete app;
 }
